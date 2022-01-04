@@ -13,7 +13,7 @@
 
 1. git init : git 저장소 생성
 2. git clone : github에 있는 파일 다운로드
-3. git add : 작업한 내용 추가 
+3. *git add : 작업한 내용 추가 
 4. *git commit : 실제 변경 내용 확정
 5. *git push : github에 업로드
 6. *git pull : github에 업로드된 파일과 동기화
