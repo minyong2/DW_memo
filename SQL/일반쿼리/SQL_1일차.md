@@ -24,7 +24,7 @@ DCL (Data Control Language) 데이터 제어 언어
 
 ### 테이블 구성도
 
-![](../images/table.PNG)
+![](../../images/table.PNG)
 
 - PK(Primary Key)는 고유 컬럼으로 고유한 데이터만 올 수 있다.
     ex) 사원 번호, 주민
