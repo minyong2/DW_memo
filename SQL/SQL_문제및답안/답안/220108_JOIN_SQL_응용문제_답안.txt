@@ -100,7 +100,7 @@ on e.DEPTNO = d.DEPTNO
 group by d.DEPTNO 
 order by 2 desc
 
-10) **조인 순서 주의
+10)
 select 
     e.ename as "사원 이름",
 	boss.ename as "사수 이름",
