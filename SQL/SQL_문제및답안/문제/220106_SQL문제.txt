@@ -1,12 +1,22 @@
 *** 문제 ) 공유폴더 -> SQL문제_제풀 -> 홍길동_쿼리.txt (192.168.0.32)
 
 -- 직업이 manager 사람들의 급여 평균을 조회하시오.
+	select 
+		avg(sal)
+	from emp 
+	where job = 'manager'
 
 -- 입사날짜가 1987-06-28 이상인 사람들의 수와 급여 평균을
  	조회하시오.
+	select 
+		count(*),
+		avg(sal)
+	from emp 
+	where hiredate >= '1987-06-28'
 
 -- 직업이 CLERK인 사원 중 최소급여를 받고있는 
 	사원의 이름과 입사날짜를 조회하시오.
+	
 
 ** 보너스 문제 )
 -- COMM이 NULL이 아니고, 직업이 SALESMAN 그리고 입사날짜가 1981-02-22
