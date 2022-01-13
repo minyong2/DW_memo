@@ -10,3 +10,11 @@
 7. ctrl + h : find 및 replace
 8. ctrl + shift + y : 대문자 -> 소문자 변환
 9. ctrl + shift + x : 소문자 -> 대문자 변환
+
+### 기본 이클립스 설정 (회사 입사 필수 설정)
+0. 본인 만의 workspaces 생성
+1. 이클립스 인코딩 설정
+    window -> preferences -> general -> workspace -> texxt file encoding (UTF-8 수정)
+2. 북마크 설정
+    window -> show view -> other -> general -> Bookmarks 더블 클릭
+3. 폰트 크기(옵션)
